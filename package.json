@@ -1,0 +1,24 @@
+{
+  "name": "product-assistant-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "lint-staged": "lint-staged",
+    "check:frontend": "npm --prefix frontend run format:check && npm --prefix frontend run lint && npm --prefix frontend run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrey-web-developer/product-assistant-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Andrey-web-developer/product-assistant-ai/issues"
+  },
+  "homepage": "https://github.com/Andrey-web-developer/product-assistant-ai#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0"
+  }
+}
