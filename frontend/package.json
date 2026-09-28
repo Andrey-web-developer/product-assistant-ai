@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@gravity-ui/aikit": "^2.22.0",
+    "@gravity-ui/icons": "^2.22.0",
+    "@gravity-ui/uikit": "^7.50.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
